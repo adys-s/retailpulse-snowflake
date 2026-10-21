@@ -12,17 +12,7 @@ L'objectif : construire un **pipeline de données complet** qui reçoit ces fich
 
 ## 🏗️ Architecture
 
-```mermaid
-flowchart LR
-    A[📱 Fichiers JSON<br/>application mobile] --> B[SALES_STAGE<br/>stage interne]
-    B -->|COPY INTO<br/>format JSON_FF| C[(STAGING<br/>RAW_TRANSACTIONS<br/>colonne VARIANT)]
-    C -->|Extraction JSON<br/>+ LATERAL FLATTEN| D[(ANALYTICS<br/>FACT_SALES)]
-    C -.->|nouvelles lignes| E[RAW_TRANSACTIONS_STREAM<br/>CDC append-only]
-    E --> F[LOAD_FACT_SALES_TASK<br/>toutes les heures]
-    F -->|INSERT des nouvelles ventes| D
-    D --> G[👤 ANALYST_ROLE<br/>lecture seule]
-    D --> I[📊 Tableau de bord<br/>Streamlit in Snowflake]
-    D -.->|Zero-Copy Clone| H[(RETAIL_DB_DEV<br/>environnement de test)]
+![Architecture du pipeline RetailPulse](images/architecture_retailpulse.png)
 ```
 
 | Couche | Objet Snowflake | Rôle |
