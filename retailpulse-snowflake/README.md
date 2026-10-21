@@ -1,9 +1,8 @@
 # ❄️ RetailPulse – Snowflake Modern Data Warehouse & Semi-Structured Analytics
 
-> Projet réalisé dans le cadre de mon parcours **« 8 projets, 8 technos »**.
 > Techno : **Snowflake** · Niveau : intermédiaire · Langages : SQL, Python (Streamlit)
 
-![Tableau de bord RetailPulse](images/09a_dashboard_global.png)
+![Tableau de bord RetailPulse](images/09a_dashboard_global.png.png)
 
 ## 📌 Contexte
 
@@ -187,11 +186,11 @@ Application **Streamlit in Snowflake** qui lit directement `ANALYTICS.FACT_SALES
 
 **Évolution du chiffre d'affaires** : le pic du 21/10 correspond aux 50 ventes du batch2, intégrées automatiquement par le Stream et la Task.
 
-![Chiffre d'affaires par jour](images/09b_dashboard_par_jour.png)
+![Chiffre d'affaires par jour](images/09b_dashboard_par_jour.png.png)
 
 **Filtre sur la France** : 206 commandes et leur part du chiffre d'affaires global.
 
-![Filtre France](images/09c_dashboard_filtre_france.png)
+![Filtre France](images/09c_dashboard_filtre_france.png.png)
 
 ## ✅ Contrôles de qualité · [`06_controles.sql`](sql/06_controles.sql)
 
@@ -240,3 +239,13 @@ Chaque étape a été validée par des chiffres de contrôle calculés à partir
 ---
 
 🏅 Prérequis validé : badge **Snowflake Hands-On Essentials – Data Warehousing Workshop**.
+
+
+## 👤 Auteur
+
+**Yawa Silvère ADODO-DAHOUE**
+
+- 💼 LinkedIn : [linkedin.com/in/silvereadodo](https://www.linkedin.com/in/silvereadodo)
+- 🐙 GitHub : [github.com/adys-s](https://github.com/adys-s)
+
+N'hésitez pas à me contacter pour échanger sur ce projet ou sur la data !
