@@ -205,7 +205,7 @@ Chaque étape a été validée par des chiffres de contrôle calculés à partir
 | Stream après exécution de la Task | 0 | ✅ 0 |
 | Clone DEV après suppression des ventes France | 344 (550 − 206) | ✅ 344, production intacte |
 
-![Contrôle final](images/08_controle_final.png)
+![Contrôle final](images/08_controle_final.png.png)
 
 ## ▶️ Reproduire le projet
 
@@ -239,7 +239,6 @@ Chaque étape a été validée par des chiffres de contrôle calculés à partir
 ---
 
 🏅 Prérequis validé : badge **Snowflake Hands-On Essentials – Data Warehousing Workshop**.
-
 
 ## 👤 Auteur
 
