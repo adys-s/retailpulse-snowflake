@@ -172,7 +172,7 @@ group by 1, 2, 3, 4, 7;
 
 | Après la mise à jour (CA réduit) | Avant la mise à jour, vu grâce à Time Travel |
 |---|---|
-| ![Après](images/07_time_travel_apres.png) | ![Avant](images/07_time_travel_avant.png) |
+| ![Après](images/07_time_travel_apres.png.png) | ![Avant](images/07_time_travel_avant.png) |
 
 **Zero-Copy Clone** : `CREATE DATABASE RETAIL_DB_DEV CLONE RETAIL_DB` crée un environnement de test complet en quelques secondes, sans dupliquer le stockage. Les ventes françaises supprimées dans le clone restent intactes en production (voir le contrôle final).
 
