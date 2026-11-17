@@ -1,8 +1,6 @@
 -- =====================================================================
 -- RetailPulse - 05 : Time Travel & Zero-Copy Clone
--- ---------------------------------------------------------------------
--- À exécuter dans la même session (les variables $ts_avant et
--- $update_qid n'existent que pendant la session en cours).
+
 -- =====================================================================
 use role sysadmin;
 use warehouse RETAIL_WH;
