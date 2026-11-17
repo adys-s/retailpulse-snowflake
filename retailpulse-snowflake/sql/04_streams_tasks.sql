@@ -52,8 +52,6 @@ alter task RETAIL_DB.ANALYTICS.LOAD_FACT_SALES_TASK resume;
 
 -- ---------------------------------------------------------------------
 -- 4. Simulation de nouvelles ventes
---    Téléverser data/retailpulse_sales_batch2.json dans SALES_STAGE,
---    puis le charger dans STAGING :
 -- ---------------------------------------------------------------------
 copy into RETAIL_DB.STAGING.RAW_TRANSACTIONS (RAW, FILE_NAME)
 from (
